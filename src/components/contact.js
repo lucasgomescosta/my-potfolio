@@ -1,11 +1,59 @@
 import React, {Component} from 'react';
+import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl';
 
 class Contact extends Component {
 	render(){
 		return (
-			<div>
-				<h1> Contact Page </h1>
+			<div className="contact-body">
+				<Grid className="contact-grid">
+					<Cell col={6}> 
+						<h2> Lucas Gomes</h2>
+						<img
+							src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fres_man-512.png"
+							alt="avatar"
+							style={{heigth: '250px'}}
+							/>
+						<p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}> 
+							O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro.
+						</p>
+					</Cell>
 
+					<Cell col={6}> 
+						<h2> Contact Me </h2>
+						<hr/>
+
+						<div className="contact-list">
+							<List>
+							  <ListItem>
+							    <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton'}}> 
+							    	<i className="fa fa-phone-square" aria-hidden="true" />
+							    	(123) 456-7890
+							    </ListItemContent>
+							  </ListItem>
+							  <ListItem>
+							    <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton'}}> 
+							    	<i className="fa fa-fax" aria-hidden="true" />
+							    	(123) 456-7890
+							    </ListItemContent>
+							  </ListItem>
+							  <ListItem>
+							    <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton'}}> 
+							    	<i className="fa fa-envelope" aria-hidden="true" />
+							    	teste@example.com
+							    </ListItemContent>
+							  </ListItem>
+							  <ListItem>
+							    <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton'}}> 
+							    	<i className="fa fa-skype" aria-hidden="true" />
+							    	MySkypeId
+							    </ListItemContent>
+							  </ListItem>
+							</List>
+						</div>
+
+						
+					</Cell>
+				</Grid>
 			</div>
 		)
 	}

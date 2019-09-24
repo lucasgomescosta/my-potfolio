@@ -4,7 +4,7 @@ import {Grid, Cell} from 'react-mdl';
 class Landing extends Component {
 	render(){
 		return (
-			<div style{{ width: '100%', margin: 'auto'}}>
+			<div style={{ width:'100%', margin:'auto'}}>
 				<Grid className="landing-grid">
 					<Cell col={12}> 
 						<img
@@ -18,7 +18,7 @@ class Landing extends Component {
 
 						 	 <hr/>
 
-						 	 <p> HTML/CSS | Bootstrap |Javascript |React | React Native |NodeJS | Express | Banco de dados Relacional e não relacional</p>
+						 	 <p> HTML/CSS | Bootstrap |Javascript |React | React Native |NodeJS | Express | Banco de dados</p>
 
 						 	 <div className="social-links">
 						 	 	{/* LinkedIn */}

@@ -15,7 +15,7 @@ class Projects extends Component {
 				<div className="projects-grid">
 					{/* Project 1*/}
 					<Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-						<CardTitle style={{color: 'black',heigth: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8fiubzSjxzNRx82uUQQS2psm8qUo2f9I_xBnALkr6yeBwoyM) center / cover'}}> 
+						<CardTitle style={{color: 'black',heigth: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSISAPF8vrQ6xvb0zExOUS00ZB_KFeIi2UiC5ZkWvWzveIO0wATsQ) center / cover'}}> 
 							React Project #1
 						</CardTitle>
 						<CardText>
@@ -34,7 +34,7 @@ class Projects extends Component {
 
 					{/* Project 2*/}
 					<Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-						<CardTitle style={{color: 'black',heigth: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8fiubzSjxzNRx82uUQQS2psm8qUo2f9I_xBnALkr6yeBwoyM) center / cover'}}> 
+						<CardTitle style={{color: 'black',heigth: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSISAPF8vrQ6xvb0zExOUS00ZB_KFeIi2UiC5ZkWvWzveIO0wATsQ) center / cover'}}> 
 							React Project #2
 						</CardTitle>
 						<CardText>
@@ -53,7 +53,7 @@ class Projects extends Component {
 
 					{/* Project 3*/}
 					<Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-						<CardTitle style={{color: 'black',heigth: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8fiubzSjxzNRx82uUQQS2psm8qUo2f9I_xBnALkr6yeBwoyM) center / cover'}}> 
+						<CardTitle style={{color: 'black',heigth: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSISAPF8vrQ6xvb0zExOUS00ZB_KFeIi2UiC5ZkWvWzveIO0wATsQ) center / cover'}}> 
 							React Project #3
 						</CardTitle>
 						<CardText>

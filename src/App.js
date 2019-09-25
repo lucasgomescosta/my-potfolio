@@ -11,15 +11,13 @@ function App() {
           <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/"> MyPortfólio </Link>} scroll>
               <Navigation>
                   <Link to="/resume">Resume</Link>
-                  <Link to="/aboutme">About Me</Link>
                   <Link to="/projects">Projects</Link>
                   <Link to="/contact">Contact</Link>
               </Navigation>
           </Header>
-          <Drawertitle={<Link style={{textDecoration: 'none', color: 'black'}} to="/"> MyPortfólio </Link>}>
+          <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/"> MyPortfólio </Link>}>
               <Navigation>
                   <Link to="/resume">Resume</Link>
-                  <Link to="/aboutme">About Me</Link>
                   <Link to="/projects">Projects</Link>
                   <Link to="/contact">Contact</Link>
               </Navigation>

@@ -10,7 +10,7 @@ class Resume extends Component {
 			<div>
 				<Grid>
 					<Cell col={4}>
-						<div style={{textAlign: 'center'>
+						<div style={{textAlign: 'center'}}>
 							<img 
 								src="https://www.sharecon.net/download/2015/09/18/103157_man_512x512.png"
 								alt="avatar"
@@ -53,11 +53,11 @@ class Resume extends Component {
 						<Experience
 						 startYear={2000}
 						 endYear={2001}
-						 jobame="First Job"
+						 jobName="First Job"
 						 jobDescription="O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão."
-
-						<hr style={{borderTop: '3px solid #e22947'}} />
-
+						 />
+						<hr style={{borderTop: '3px solid #e22947'}}/>
+					
 						<Skills 
 							skill="Javascript"
 							progress={50}
